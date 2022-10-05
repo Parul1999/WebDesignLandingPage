@@ -1,0 +1,86 @@
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-items {
+    color: #524e94;
+    display: flex;
+    gap: 3rem;
+}
+
+.signin-btn {
+    height: 2rem;
+    width: 7rem;
+    padding: 0;
+    border: transparent;
+    background: linear-gradient(to right , #965cf2, #ff8adc);
+    border-radius: 1rem;
+    color: #ffffff;
+}
+
+/* Hero Section */
+.learn-more-btn{
+    height: 3rem;
+    width: 12rem;
+    padding: 5px;
+    border: transparent;
+    background: linear-gradient(to right , #965cf2, #ff8adc);
+    border-radius: 2rem;
+    color: #ffffff;
+    font-weight: bolder;
+    margin-top: 1.5rem;
+}
+.intro-section {
+    display: flex;
+}
+.left-section{
+    margin: 3rem 15rem 0rem 8rem;
+    padding: 0 7rem 0 0;
+}
+.imgs-div {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.vector-dot {
+    position: absolute;
+    bottom: 48%;
+    left: 43%;
+}
+
+.vector-img {
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    top: 50%;
+}
+
+.left-section>h1 {
+    color: #3e4794;
+    font-size: 5em;
+}
+
+.left-section>h4 {
+    color: #55597d;
+}
+
+img[alt="intro-img"] {
+    right: 23%;
+    position: relative;
+    top: 23%;
+}
+@media screen and (min-width: 1400px) {
+    img[alt="intro-img"] {
+      width: 100%;
+    }
+  }
+.backcover-img {
+    position: fixed;
+    z-index: -1;
+    right: 0rem;
+}
